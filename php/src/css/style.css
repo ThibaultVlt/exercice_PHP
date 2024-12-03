@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.en-tete {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    padding: 5px;
+}

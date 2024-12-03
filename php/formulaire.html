@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Question 4 - PHP - Les bases du développement</title>
+  <link rel="stylesheet" href="/src/css/formulaire.css"/>
+</head>
+<body>
+  <h1>Un petit formulaire</h1>
+  <p>Merci de renseigner les informations suivantes :</p>
+  <form action="./formul.php" method="GET">
+    <input type="text" name="name" id="name" placeholder="Votre nom"/>
+    <input type="number" name="age" id="age" placeholder="Votre âge"/>
+    <div class="boutons-radio">
+      <p>Votre situation maritale :</p>
+      <input type="radio" name="situation" value="marié" id="marie"/>
+      <label for="marie">Marié(e)</label>
+      <input type="radio" name="situation" value="veuf(ve)" id="veuf"/>
+      <label for="veuf">Veuf(ve)</label>
+      <input type="radio" name="situation" value="célibataire" id="celibataire"/>
+      <label for="celibataire">Célibataire</label>
+    </div>
+    <div class="checkbox">
+      <p>Vos centres d'intérêt :</p>
+      <input type="checkbox" name="internet" id="internet"/>
+      <label for="internet">Internet</label>
+      <input type="checkbox" name="micro" id="micro-informatique"/>
+      <label for="micro-informatique">Micro-informatique</label>
+      <input type="checkbox" name="jeux" id="jeux_video"/>
+      <label for="jeux_video">Jeux Vidéo</label>
+    </div>
+    <div class="boutons">
+      <button type="reset">Recommencer</button>
+      <button type="submit">Envoyer</button>
+    </div>
+  </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+    "ignorePaths": [
+        "**/node_modules/**",
+        "**/docs/**",
+        "**/.git/**",
+        "**/reports/**",
+        ".vscode",
+        ".*rc",
+        "package.json",
+        "package-lock.json"
+    ],
+    "language": "fr-fr,en,lorem-ipsum",
+    "version": "0.2",
+    "words": []
+}
