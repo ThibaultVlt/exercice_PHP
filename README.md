@@ -14,6 +14,8 @@ Il s'agit ici d'une série d'exercices guidés visant à comprendre les techniqu
 
 - Exercice 4 : Exploitation des formulaires.
 
+Fichiers .php dans le dossier php
+
 ## Table des matières
 
 - [Projet](#projet)
